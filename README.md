@@ -1,2 +1,5 @@
 # last_digit_price
  
+ ### The distribution of the last digit (integer part) of stocks in A-share
+ 
+It is found that the stock closing price has a single digit of 5 with the highest frequency and 1 with the lowest frequency. The data in the code is based on the closing prices of 3,600 stocks listed on the A-share Shanghai and Shenzhen stocks since 2014. If the stock price fluctuates completely at random, the frequency of each single digit in theory should be equal, but the empirical results violate the theory. A plausible deduction is that the investment behavior of investors in the Chinese market may be affected by psychological factors. When the stock price breaks through the multiple of 10 (single digits are 0, 1, 2, etc.), people may tend to buy stocks, which cause the stock price rises. When the stock rises close to a multiple of 10 (single digits are 8, 9), people may tend to sell and cause the stock price to fall. At the end of the day, the frequency of the stock at the center (single digits 4, 5, 6) are relatively high. The lower frequency of 1 can reflect that the behavior of buying when there's a "break through" is more significant in the market.
